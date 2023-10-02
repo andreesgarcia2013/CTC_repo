@@ -1,44 +1,46 @@
-<body>
-    <h1>CTC</h1>
+Readme.me
+# CTC
 
-    <p>CTC is a small project that focuses on managing tasks and likes using React with Laravel.</p>
+CTC is a little project about task and likes in React with Laravel
 
-    <h2>Installation</h2>
+## Installation
 
-    <p>Clone the Repository</p>
-    <p>Start by cloning the project repository to your local machine.</p>
+Clone the repository
+First, clone the project repository to your local machine.
 
-    <pre><code># Navigate to the project directory
+```bash
+# Move to the project directory
 cd CTC
-</code></pre>
+```
 
-    <h3>Backend</h3>
-    <p>You will need Laravel version 9.x for the backend.</p>
+### Back end
+You need Laravel in 9.x Version
 
-    <pre><code># Navigate to the Laravel directory
+```bash
+# move to the directory
 cd server/laravel
 
-# Use composer update to install dependencies
+# use composer update to install depencencies
 composer update
-</code></pre>
+```
+Don't forget to update the .env file in the Laravel project with your database credentials. You can create a .env file if it doesn't exist and then configure it.
+You can check your '/' route for test connection.
 
-    <p>Don't forget to update the .env file in the Laravel project with your database credentials. If the .env file doesn't exist, create one and configure it accordingly. You can also check the '/' route for a test connection.</p>
-
-    <pre><code># Execute migrations to create tables
+```bash
+# execute migrations for create tables
 php artisan migrate
-</code></pre>
+```
 
-    <h3>Frontend</h3>
-    <p>For the frontend, you will need React with yarn and install all dependencies.</p>
-
-    <pre><code># Navigate to the React directory
+### Front end
+You need React with yarn and install all depencency
+```bash
+# move to the directory
 cd client/react
 
-# Use yarn to install dependencies
+# use yarn to install dependecies
 yarn
-</code></pre>
+```
 
-    <p>Don't forget to update the .env file in the React project with the appropriate endpoint information. If the .env file doesn't exist, create one and configure it.</p>
+Don't forget to update the .env file in the React project with the appropriate endpoint information. Create a .env file if it doesn't exist and configure it.
 
-    <p>Now you have successfully set up your CTC project with React and Laravel, ensuring that you have configured both the backend and frontend environments properly.</p>
-</body>
+Now you have successfully set up your CTC project with React and Laravel, ensuring that you have configured both the backend and frontend environments properly.
