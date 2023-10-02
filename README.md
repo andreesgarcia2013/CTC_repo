@@ -34,6 +34,10 @@ You can check your '/' route for test connection.
 php artisan migrate
 ```
 
+```bash
+# You can run with
+php artisan serve
+```
 ### Front end
 You need React with yarn and install all depencency
 ```bash
@@ -45,5 +49,10 @@ yarn
 ```
 
 Don't forget to update the .env file in the React project with the appropriate endpoint information. Create a .env file if it doesn't exist and configure it.
+
+```bash
+# You can run with
+yarn dev
+```
 
 Now you have successfully set up your CTC project with React and Laravel, ensuring that you have configured both the backend and frontend environments properly.
