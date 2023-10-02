@@ -22,6 +22,9 @@ cd server/laravel
 
 # use composer update to install depencencies
 composer update
+
+# generate key for env
+php artisan key:generate
 ```
 Don't forget to update the .env file in the Laravel project with your database credentials. You can create a .env file if it doesn't exist and then configure it.
 You can check your '/' route for test connection.
