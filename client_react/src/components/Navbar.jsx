@@ -13,20 +13,7 @@ export const Navbar = () => {
                         Cuida Tu Comunidad
                     </Link>
                     {location.pathname !== '/create' && (
-                        <div className='flex  space-x-2' >
-                            <div className="relative">
-                                <input
-                                    type="text"
-                                    placeholder="Search..."
-                                    className="border border-gray-300 rounded-md py-2 pl-10 pr-4 focus:outline-none focus:ring focus:border-blue-400"
-                                />
-                                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                                    <FontAwesomeIcon
-                                        icon="search" // Use the icon name you imported from FontAwesome
-                                        className="h-5 w-5 text-gray-400"
-                                    />
-                                </div>
-                            </div>
+                        <div className=' flex px-5' >
                             <Link to={'create'} className="flex items-center">
                                 <span
                                     type="button"
